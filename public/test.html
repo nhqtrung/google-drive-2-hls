@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js">
+    </script>
+
+    <script>
+        $.ajax({
+            method: 'GET',
+            url: 'http://localhost:8080/li1cdn/public/hls/0/1360743/11XdjQSE_s8sl3DX6V8R1isRqpHYLJJzS',
+            success: function(msg) {
+                console.log('oke');
+            }
+        })
+    </script>
+</body>
+</html>
